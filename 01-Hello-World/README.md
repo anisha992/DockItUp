@@ -94,13 +94,6 @@ Hello, World!
 
 ---
 
-🚀 **Next Steps**
------------------
-
-👉 Explore Docker Volumes  
-👉 Learn about Networking in Docker  
-👉 Work with Multi-Container Applications  
-
 ---
 
 🎯 **Conclusion**
