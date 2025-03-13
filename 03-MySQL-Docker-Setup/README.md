@@ -113,7 +113,7 @@ docker stop mysql-container
 docker rm mysql-container
 docker build -t mysql-custom .
 docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=root -d mysql-custom
----
+```
 
 ---
 
