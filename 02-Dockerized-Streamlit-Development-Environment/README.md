@@ -116,9 +116,3 @@ http://localhost:8501
 ## 🎯 Conclusion
 You now have a fully functional Streamlit development environment running inside Docker! 🚀
 
-### 💡 Next Steps:
-- 🔹 Add more features to your Streamlit app.
-- 🔹 Deploy the containerized app on AWS, GCP, or Azure.
-- 🔹 Experiment with Docker Compose for multi-container setups.
-
-📌 **Happy Coding! 🚀**
