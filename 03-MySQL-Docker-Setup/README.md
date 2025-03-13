@@ -120,5 +120,5 @@ docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=root -d mysql-custom
 ## 🎉 Conclusion
 🎯 You have successfully set up MySQL in a Docker container with an initialization script. Now, every time you start the container, the database will be initialized automatically! 🚀
 
-Happy coding! 🎨
+
 
