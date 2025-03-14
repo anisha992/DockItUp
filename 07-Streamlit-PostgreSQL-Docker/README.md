@@ -32,7 +32,7 @@ docker network create my_postgres_network
 
 ### **Step 3: Run the PostgreSQL Container**
 ```bash
-docker run --name my_postgres_container --network my_postgres_network -e POSTGRES_USER=tarak -e POSTGRES_PASSWORD=secret -e POSTGRES_DB=testdb -p 5432:5432 -d postgres
+docker run --name my_postgres_container --network my_postgres_network -e POSTGRES_USER=Anisha -e POSTGRES_PASSWORD=secret -e POSTGRES_DB=testdb -p 5432:5432 -d postgres
 ```
 This starts a PostgreSQL container with authentication settings.
 
@@ -42,7 +42,7 @@ This starts a PostgreSQL container with authentication settings.
 
 ### **Step 4: Access PostgreSQL**
 ```bash
-docker exec -it my_postgres_container psql -U tarak -d testdb
+docker exec -it my_postgres_container psql -U Anisha -d testdb
 ```
 
 ### **Step 5: Create the `passengers` Table**
@@ -115,5 +115,4 @@ You should see the list of passengers displayed in the app.
 ✅ Application accessible at **[http://localhost:8501](http://localhost:8501)**.
 
 This project provides a **containerized solution** for data visualization using **Streamlit and PostgreSQL**. 🚀
-
 
