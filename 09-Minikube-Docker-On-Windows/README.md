@@ -1,6 +1,6 @@
 # Minikube with Docker on Windows ☸️
 
-<img src="assets/logo.png" alt="Minikube Logo" width="200" height="100">
+<img src="assets/logo.png" alt="Minikube Logo" width="300" height="300">
 
 
 ## What is Minikube?
