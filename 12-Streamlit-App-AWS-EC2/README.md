@@ -153,9 +153,6 @@ sudo systemctl enable docker
 sudo systemctl start docker
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/b17f8d11d876569f5eda9920304a091057591d59/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/3.jpg" alt="Streamlit on AWS EC2 - Step 3" />
-</p>
-<p align="center">
   <img src="https://github.com/anisha992/Docker-Projects/blob/main/12-Streamlit-App-AWS-EC2/images/Screenshot%202025-03-26%20001724.png" alt="Streamlit on AWS EC2 - Step 3" />
 </p>
 
@@ -165,9 +162,6 @@ Transfer files using SCP:
 ```sh
 scp -i your-key.pem app.py Dockerfile requirements.txt mushroom.cv ec2-user@your-ec2-public-ip:/home/ec2-user/
 ```
-<p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/b17f8d11d876569f5eda9920304a091057591d59/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/4.jpg" alt="Streamlit on AWS EC2 - Step 4" />
-</p>
 
 ## 7️⃣ Building and Running the Docker Container
 
