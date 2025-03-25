@@ -6,7 +6,7 @@ Welcome to **Dock-It-Up**, a collection of Docker-based projects covering variou
 
 ## 📌 Projects Aboard:
 
-1. [**Hello World** 🌍](#hello-world)
+1. [**Hello World** 🌍](./01-Hello-World)
    - Introduction to basic Docker commands and container execution.
 
 2. [**Dockerized Streamlit Development Environment** 🎨](#dockerized-streamlit-development-environment)
