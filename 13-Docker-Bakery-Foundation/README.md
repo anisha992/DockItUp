@@ -39,6 +39,9 @@ Open PowerShell and run:
 
 ```powershell
 packer --version
+<p align="center">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/13-Docker-Bakery-Foundation/images/Screenshot%202025-03-26%20015231.png" alt="Screenshot">
+</p>
 ```
 
 ✅ If successful, the **Packer version** will be displayed.
@@ -55,6 +58,9 @@ packer --version
 
 ```powershell
 aws --version
+<p align="center">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/13-Docker-Bakery-Foundation/images/Screenshot%202025-03-26%20015241.png" alt="Screenshot">
+</p>
 ```
 
 ✅ If successful, it should display something like: aws-cli/2.x.x Windows/10
@@ -72,6 +78,10 @@ Enter the following when prompted:
 - **AWS Secret Access Key**: `<Your AWS Secret>`  
 - **Default region name**: `us-east-1` (or your preferred region)  
 - **Default output format**: `json` (Press Enter)  
+
+<p align="center">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/13-Docker-Bakery-Foundation/images/Screenshot%202025-03-26%20015251.png" alt="Screenshot">
+</p>
 
 ✅ AWS CLI is now configured.
 
@@ -126,7 +136,7 @@ Run the following AWS CLI command to get the latest Ubuntu AMI:
 aws ec2 describe-images --owners 099720109477 --filters "Name=name,Values=ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*" --query "Images | sort_by(@, &CreationDate)[-1].ImageId" --output text
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/6d5d87e85a40602d2a417ef341625bd7b6d38607/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011116.png?raw=true" alt="Screenshot">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/13-Docker-Bakery-Foundation/images/Screenshot%202025-03-26%20015302.png" alt="Screenshot">
 </p>
 
 ✅ Update `bakery.pkr.hcl` by replacing the **`source_ami`** with the new AMI ID:
@@ -166,7 +176,7 @@ packer validate bakery.pkr.hcl
 ✅ Expected Output: The configuration is valid.
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011135.png?raw=true" alt="Screenshot">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/13-Docker-Bakery-Foundation/images/Screenshot%202025-03-26%20015313.png" alt="Screenshot">
 </p>
 
 ### 3.2 Build the Machine Image
@@ -184,7 +194,7 @@ This will:
 - Delete the temporary instance.
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011212.png?raw=true" alt="Screenshot">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/13-Docker-Bakery-Foundation/images/Screenshot%202025-03-26%20015334.png" alt="Screenshot">
 </p>
 <p align="center">
   <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011235.png?raw=true" alt="Screenshot">
