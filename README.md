@@ -9,40 +9,40 @@ Welcome to **Dock-It-Up**, a collection of Docker-based projects covering variou
 1. [**Hello World** 🌍](./01-Hello-World)
    - Introduction to basic Docker commands and container execution.
 
-2. [**Dockerized Streamlit Development Environment** 🎨](#dockerized-streamlit-development-environment)
+2. [**Dockerized Streamlit Development Environment** 🎨](./02-Dockerized-Streamlit-Development-Environment)
    - Setting up a containerized Streamlit environment for smooth and efficient data visualization.
 
-3. [**MySQL Docker Setup** 🐬](#mysql-docker-setup)
+3. [**MySQL Docker Setup** 🐬](./03-MySQL-Docker-Setup)
    - Deploying MySQL in a Docker container with persistent storage and secure access.
 
-4. [**Titanic Survival Predictor - Containerized Streamlit App** 🚢](#titanic-survival-predictor-containerized-streamlit-app)
+4. [**Titanic Survival Predictor - Containerized Streamlit App** 🚢](./Titanic-Survival-Predictor-Containerized-Streamlit-App)
    - Hosting a Machine Learning-powered Titanic survival prediction app using Streamlit and Docker.
 
-5. [**Docker Volume Persistence - Bind Mounts with Linux Containers** 📁](#docker-volume-persistence-bind-mounts-with-linux-containers)
+5. [**Docker Volume Persistence - Bind Mounts with Linux Containers** 📁](./05-Docker-Volume-Persistence-Bind-Mounts-With-Linux-Container)
    - Implementing Docker volumes and bind mounts for efficient data storage and persistence.
 
-6. [**Docker Bridge Networking** 🔗](#docker-bridge-networking)
+6. [**Docker Bridge Networking** 🔗](./06-Docker-Bridge-Networking)
    - Exploring Docker networking concepts with bridge mode for container communication.
 
-7. [**Streamlit PostgreSQL Docker** 🗄️](#streamlit-postgresql-docker)
+7. [**Streamlit PostgreSQL Docker** 🗄️](./07-Streamlit-PostgreSQL-Docker)
    - Running a Streamlit app connected to PostgreSQL inside a Docker container.
 
-8. [**Evidently Monitoring Docker** 📊](#evidently-monitoring-docker)
+8. [**Evidently Monitoring Docker** 📊](./08-Evidently-Monitoring-Docker)
    - Using Evidently AI for model monitoring and drift detection in a containerized environment.
 
-9. [**Minikube Docker on Windows** 🏗️](#minikube-docker-on-windows)
+9. [**Minikube Docker on Windows** 🏗️](./09-Minikube-Docker-On-Windows)
    - Setting up Minikube to run Kubernetes on Windows with Docker for local development.
 
-10. [**Orchestrate Microservices with Minikube Kubernetes** ☸️](#orchestrate-microservices-with-minikube-kubernetes)
+10. [**Orchestrate Microservices with Minikube Kubernetes** ☸️](./10-Orchestrate-Microservices-With-Minikube-Kubernetes)
     - Managing microservices and scaling applications using Kubernetes on Minikube.
 
-11. [**Orchestrate Microservices with Docker Swarm** ⚓](#orchestrate-microservices-with-docker-swarm)
+11. [**Orchestrate Microservices with Docker Swarm** ⚓](./11-Orchestrate-Microservices-With-Docker-Swarm)
     - Using Docker Swarm for container orchestration, load balancing, and fault tolerance.
 
-12. [**Streamlit App on AWS EC2** ☁️](#streamlit-app-on-aws-ec2)
+12. [**Streamlit App on AWS EC2** ☁️](./12-Streamlit-App-AWS-EC2)
     - Deploying a Streamlit application on AWS EC2 with Docker for cloud-based access.
 
-13. [**Docker Bakery Foundation** 🍞](#docker-bakery-foundation)
+13. [**Docker Bakery Foundation** 🍞](./13-Docker-Bakery-Foundation)
     - Understanding Docker fundamentals through a beginner-friendly project.
 
 ---
