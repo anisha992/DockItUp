@@ -131,6 +131,10 @@ docker run -p 8501:8501 evidently-streamlit
 
 Open [http://localhost:8501](http://localhost:8501) in your browser.
 
+<p align="center">
+  <img src="images/img1.png" alt="Streamlit on AWS EC2" />
+</p>
+
 ---
 
 ## 🎯 Conclusion
