@@ -39,12 +39,13 @@ Open PowerShell and run:
 
 ```powershell
 packer --version
+```
+
+
+✅ If successful, the **Packer version** will be displayed.
 <p align="center">
   <img src="https://github.com/anisha992/Docker-Projects/blob/main/13-Docker-Bakery-Foundation/images/Screenshot%202025-03-26%20015231.png" alt="Screenshot">
 </p>
-```
-
-✅ If successful, the **Packer version** will be displayed.
 
 ### 1.2 Install AWS CLI
 
@@ -58,12 +59,13 @@ packer --version
 
 ```powershell
 aws --version
-<p align="center">
-  <img src="https://github.com/anisha992/Docker-Projects/blob/main/13-Docker-Bakery-Foundation/images/Screenshot%202025-03-26%20015241.png" alt="Screenshot">
-</p>
+
 ```
 
 ✅ If successful, it should display something like: aws-cli/2.x.x Windows/10
+<p align="center">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/13-Docker-Bakery-Foundation/images/Screenshot%202025-03-26%20015241.png" alt="Screenshot">
+</p>
 
 ### 1.3 Configure AWS CLI (5 minutes)  
 
