@@ -196,9 +196,6 @@ This will:
 <p align="center">
   <img src="https://github.com/anisha992/Docker-Projects/blob/main/13-Docker-Bakery-Foundation/images/Screenshot%202025-03-26%20015334.png" alt="Screenshot">
 </p>
-<p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011235.png?raw=true" alt="Screenshot">
-</p>
 
 ## Step 4: Deploy and Test the AMI
 
@@ -208,7 +205,7 @@ This will:
 3. Find the AMI named: bakery-foundation-python39-timestamp
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011612.png?raw=true" alt="Screenshot">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/13-Docker-Bakery-Foundation/images/Screenshot%202025-03-26%20020901.png" alt="Screenshot">
 </p>
 
 ### 4.2 Launch an EC2 Instance with Your AMI  
@@ -223,15 +220,8 @@ This will:
 5. Click **Launch**! 🚀
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011811.png?raw=true" alt="Screenshot">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/13-Docker-Bakery-Foundation/images/Screenshot%202025-03-26%20014751.png" alt="Screenshot">
 </p>
-<p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011842.png?raw=true" alt="Screenshot">
-</p>
-<p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20012354.png?raw=true" alt="Screenshot">
-</p>
-
 ### 4.3 Connect to the Instance  
 
 1. Get the **Public IP** from the EC2 Console.  
@@ -240,6 +230,9 @@ This will:
 ```powershell
 ssh -i "C:\path\to\your-key.pem" ubuntu@your-instance-ip
 ```
+<p align="center">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/13-Docker-Bakery-Foundation/images/Screenshot%202025-03-26%20015413.png" alt="Screenshot">
+</p>
 
 3. Accept the SSH key fingerprint (First Time Only): Type "yes" and press Enter.
 
@@ -256,7 +249,7 @@ python3.9 --version
 ✅ Expected Output:
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/614806e3f3f17ba56c9270b451a777afbcba2451/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20030112.png?raw=true" alt="Screenshot">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/13-Docker-Bakery-Foundation/images/Screenshot%202025-03-26%20015425.png" alt="Screenshot">
 </p>
 
 ## Default Ubuntu Python Version
