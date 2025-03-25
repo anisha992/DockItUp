@@ -96,6 +96,10 @@ Open your browser and navigate to:
 ```
 http://localhost:8501
 ```
+<p align="center">
+  <img src="images/img-1.png" alt="Streamlit on AWS EC2" />
+</p>
+
 
 ---
 
