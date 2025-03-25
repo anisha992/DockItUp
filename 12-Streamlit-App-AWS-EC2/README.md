@@ -25,6 +25,9 @@ To ensure a well-structured networking setup, follow these steps in the AWS Mana
    - **Name:** MyCustomVPC
    - **IPv4 CIDR block:** 10.0.0.0/16
 4. Click **Create VPC**.
+<p align="center">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/12-Streamlit-App-AWS-EC2/images/Screenshot%202025-03-26%20002451.png" alt="Streamlit on AWS EC2" />
+</p>
 
 ### 1.2 Create a Subnet
 1. Go to **VPC Dashboard → Subnets → Create Subnet**.
@@ -34,6 +37,9 @@ To ensure a well-structured networking setup, follow these steps in the AWS Mana
    - **CIDR block:** 10.0.1.0/24
    - **Availability Zone:** Select any zone.
 4. Click **Create Subnet**.
+<p align="center">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/12-Streamlit-App-AWS-EC2/images/Screenshot%202025-03-26%20002459.png" alt="Streamlit on AWS EC2" />
+</p>
 
 ### 1.3 Enable Auto-Assign Public IPv4
 1. Go to **Subnets**.
@@ -50,6 +56,9 @@ To ensure a well-structured networking setup, follow these steps in the AWS Mana
    - Select **MyIGW**.
    - Click **Actions → Attach to VPC → Select MyCustomVPC**.
    - Click **Attach**.
+<p align="center">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/12-Streamlit-App-AWS-EC2/images/Screenshot%202025-03-26%20002513.png" alt="Streamlit on AWS EC2" />
+</p>
 
 ### 1.5 Create a Route Table
 1. Go to **VPC Dashboard → Route Tables**.
@@ -60,6 +69,9 @@ To ensure a well-structured networking setup, follow these steps in the AWS Mana
    - **Destination:** 0.0.0.0/0
    - **Target:** Select **MyIGW**.
 6. Click **Save changes**.
+<p align="center">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/12-Streamlit-App-AWS-EC2/images/Screenshot%202025-03-26%20002507.png" />
+</p>
 
 ### 1.6 Associate the Subnet with the Route Table
 1. Go to **Route Tables**.
@@ -87,7 +99,9 @@ To ensure a well-structured networking setup, follow these steps in the AWS Mana
      - Allow **HTTP (port 80, optional)**.
      - Allow **Streamlit (port 8501)**.
 3. Click **Launch Instance**.
-
+<p align="center">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/12-Streamlit-App-AWS-EC2/images/Screenshot%202025-03-26%20002532.png" alt="Streamlit on AWS EC2" />
+</p>
 ---
 
 ## 3️⃣ Connecting to EC2 Using EC2 Instance Connect
@@ -113,7 +127,7 @@ Set the correct permissions:
 chmod 600 your-key.pem
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/b17f8d11d876569f5eda9920304a091057591d59/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/1.jpg" alt="Streamlit on AWS EC2" />
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/12-Streamlit-App-AWS-EC2/images/Screenshot%202025-03-26%20001700.png" alt="Streamlit on AWS EC2" />
 </p>
 
 ## 5️⃣ Installing and Configuring Docker on EC2
@@ -127,7 +141,7 @@ Install Docker:
 sudo yum install -y docker
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/b17f8d11d876569f5eda9920304a091057591d59/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/2.jpg" alt="Streamlit on AWS EC2 - Step 2" />
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/12-Streamlit-App-AWS-EC2/images/Screenshot%202025-03-26%20001713.png" alt="Streamlit on AWS EC2 - Step 2" />
 </p>
 
 Enable and start Docker:
@@ -140,6 +154,9 @@ sudo systemctl start docker
 ```
 <p align="center">
   <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/b17f8d11d876569f5eda9920304a091057591d59/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/3.jpg" alt="Streamlit on AWS EC2 - Step 3" />
+</p>
+<p align="center">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/12-Streamlit-App-AWS-EC2/images/Screenshot%202025-03-26%20001724.png" alt="Streamlit on AWS EC2 - Step 3" />
 </p>
 
 ## 6️⃣ Copying Project Files to EC2
@@ -157,6 +174,10 @@ scp -i your-key.pem app.py Dockerfile requirements.txt mushroom.cv ec2-user@your
 Navigate to the directory:
 ```sh
 cd /home/ec2-user/
+<p align="center">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/12-Streamlit-App-AWS-EC2/images/Screenshot%202025-03-26%20001748.png" />
+</p>
+
 ```
 Build the Docker image:
 ```sh
@@ -167,7 +188,10 @@ Run the container:
 sudo docker run -d -p 8501:8501 --name streamlit_container streamlit-app
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/b17f8d11d876569f5eda9920304a091057591d59/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/5.jpg" alt="Streamlit on AWS EC2 - Step 5" />
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/12-Streamlit-App-AWS-EC2/images/Screenshot%202025-03-26%20001844.png" alt="Streamlit on AWS EC2 - Step 5" />
+</p>
+<p align="center">
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/12-Streamlit-App-AWS-EC2/images/Screenshot%202025-03-26%20001858.png" alt="Streamlit on AWS EC2 - Step 5" />
 </p>
 
 ## 8️⃣ Accessing the Streamlit App
@@ -179,7 +203,7 @@ http://your-ec2-public-ip:8501
 The Streamlit app should now be accessible.
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/b17f8d11d876569f5eda9920304a091057591d59/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/6.jpg" alt="Streamlit on AWS EC2 - Step 6" />
+  <img src="https://github.com/anisha992/Docker-Projects/blob/main/12-Streamlit-App-AWS-EC2/images/Screenshot%202025-03-26%20001907.png" alt="Streamlit on AWS EC2 - Step 6" />
 </p>
 
 ## 9️⃣ Managing the Docker Container
